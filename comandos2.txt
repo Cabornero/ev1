@@ -1,0 +1,25 @@
+C:\ev1>doskey /history
+git init
+dir
+mkdir alfa
+echo "EXAMEN ENTORNOS" >> prueba.txt
+type prueba.txt
+mkdir beta
+cp prueba.txt beta
+copy prueba.txt beta
+type beta
+dir beta
+echo "Linea nueva" >> prueba.txt
+type prueba.txt
+doskey /history
+git add .
+git commit -m "repositorio ev1"
+git log --oneline
+cd beta
+echo "prueba2" >> prueba2.txt
+git remote add origin https://github.com/Cabornero/ev1.git
+git push
+git push --set-upstream origin master
+cd ..
+dir
+doskey /history
